@@ -1,0 +1,64 @@
+input {
+  width: 600px;
+  font-family: inherit;
+  margin: 10px;
+  background-color: #f1e6bb;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  margin: 0 auto;
+  display: inline-block;
+  width: fit-content;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  color: aliceblue;
+  background-color: #d6a844;
+}
+textarea {
+  height: 200px;
+  width: 600px;
+  margin: 10px;
+  background-color: #f1e6bb;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  color: goldenrod;
+}
+.send-button {
+  text-align: center;
+  
+}
+
+div[role="alert"] {
+  color: red;
+  margin-top: 1em;
+}
+.message-chars-left {
+  /* width: 100%; */
+  margin: auto;
+  text-align: right;
+  font-size: 10px;
+  color: gray;
+}
+
+.status-message {
+  opacity: 0;
+}
+.success {
+  opacity: 1;
+  color: green;
+}
+.failure {
+  opacity: 1;
+  color: red;
+}
