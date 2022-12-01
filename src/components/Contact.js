@@ -28,7 +28,9 @@ export function Contact() {
       },
       function (error) {
         console.log("FAILED...", error);
-        setStatusMessage("El mensaje no se ha enviado. Inténtalo otra vez más tarde.");
+        setStatusMessage(
+          "El mensaje no se ha enviado. Inténtalo otra vez más tarde."
+        );
         statusMessage.className = "status-message failure";
         setTimeout(() => {
           statusMessage.className = "status-message";
@@ -37,10 +39,9 @@ export function Contact() {
     );
   };
   const message = watch("message") || "";
-  const messageCharsLeft = 1500 - message.length;
 
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h2>Contacto</h2>
 
       <p className="status-message">{statusMessage}</p>
@@ -83,7 +84,7 @@ export function Contact() {
           {...register("message", { required: true })}
           placeholder="Mensaje"
         />
-        <p className="message-chars-left">{messageCharsLeft}</p>
+        <p className="message-chars-left">{message.length}/1500</p>
         <br />
         <div className="send-button">
           <input type="submit" value="Envía" />

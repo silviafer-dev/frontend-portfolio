@@ -11,7 +11,7 @@ export function Portfolio() {
   }, [setProjects]);
 
   return (
-    <>
+    <div id="projects">
       <h2 className="title">Proyectos</h2>
       <div className="container-projects">
         {projects &&
@@ -19,7 +19,7 @@ export function Portfolio() {
             <div className="project" key={index}>
               <div className="project__content">
                 <div className="project__title">
-                  <h3>{project.name}</h3>
+                  <h3 className="project-name">{project.name}</h3>
                   <h5>{project.description}</h5>
                 </div>
 
@@ -40,15 +40,21 @@ export function Portfolio() {
                   Code
                 </a>
               </div>
-
-              <img
-                src={project.image}
-                alt="imago app pic"
-                className="photo-project"
-              />
+              <a
+                href={project.link}
+                className="link-photo"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={project.image}
+                  alt="imago app pic"
+                  className="photo-project"
+                />
+              </a>
             </div>
           ))}
       </div>
-    </>
+    </div>
   );
 }

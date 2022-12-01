@@ -19,7 +19,7 @@ import { FaGitAlt } from "react-icons/fa";
 
 export function Tech() {
   return (
-    <div className="stack">
+    <div className="stack" id="stack">
       <h2 className="title-stack">Stack Tecnológico </h2>
       <div className="container-stack">
         <div className="tech bounce">

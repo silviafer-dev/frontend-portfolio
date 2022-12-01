@@ -16,6 +16,7 @@ input[type="submit"] {
   padding: 10px 20px;
   color: aliceblue;
   background-color: #d6a844;
+  cursor: pointer;
 }
 textarea {
   height: 200px;
@@ -36,7 +37,6 @@ textarea {
 }
 .send-button {
   text-align: center;
-  
 }
 
 div[role="alert"] {
@@ -44,7 +44,7 @@ div[role="alert"] {
   margin-top: 1em;
 }
 .message-chars-left {
-  /* width: 100%; */
+  padding-right: 8px;
   margin: auto;
   text-align: right;
   font-size: 10px;
