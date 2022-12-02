@@ -6,6 +6,7 @@ import { Header } from "./components/Header";
 import { Portfolio } from "./components/Portfolio";
 import { Tech } from "./components/Tech";
 import { IoIosArrowUp } from "react-icons/io";
+import { Footer } from "./components/Footer";
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
       <Tech />
       <Portfolio />
       <Contact />
+      <Footer/>
     </div>
   );
 }

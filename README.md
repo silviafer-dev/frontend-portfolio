@@ -1,3 +1,4 @@
-# Portfolio
+# Portfolio Silvia Ferrai [https://frontend-portfolio-es15.vercel.app/]
 
-## Vercel: frontend-portfolio-lyart.vercel.app
+Created with React app and deployed in Vercel.
+Back deployed in Heroku.
