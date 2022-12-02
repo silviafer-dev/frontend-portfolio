@@ -18,6 +18,10 @@ input[type="submit"] {
   background-color: #d6a844;
   cursor: pointer;
 }
+input[type="submit"]:active {
+  transform: scale(0.9);
+  box-shadow: 0 3px 15px -2px;
+}
 textarea {
   height: 200px;
   width: 600px;

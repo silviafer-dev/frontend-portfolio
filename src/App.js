@@ -21,7 +21,7 @@ function App() {
           window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
         }}
       >
-        <IoIosArrowUp style={{ fontSize: " 40px" }} />
+        <IoIosArrowUp  />
       </button>
       <Header />
       <About />

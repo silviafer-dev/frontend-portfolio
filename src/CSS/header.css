@@ -43,6 +43,10 @@ li a {
   text-transform: uppercase;
   font-weight: bold;
 }
+li a:hover {
+  background-color: rgba(76, 36, 7, 0.457);
+  border-radius: 20px;
+}
 
 .menuNav li:first-child {
   margin-top: 7rem;

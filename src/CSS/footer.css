@@ -1,15 +1,16 @@
 .footer {
-    padding:30px 10px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: black;
-    background: linear-gradient(to bottom, #000000,#daa520,  #daa520, #d9a520);
+  width: 100vw;
+  padding: 30px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  background: linear-gradient(to bottom, #000000, #daa520, #daa520, #d9a520);
 }
-.icons-link-footer a{
-    text-decoration: none;
-    color: black;
-    margin: 20px 20px 0 20px;
-    font-size: 30px;
-    cursor: pointer;
+.icons-link-footer a {
+  text-decoration: none;
+  color: black;
+  margin: 20px 20px 0 20px;
+  font-size: 30px;
+  cursor: pointer;
 }
