@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
@@ -9,26 +9,35 @@ import { IoIosArrowUp } from "react-icons/io";
 import { Footer } from "./components/Footer";
 
 function App() {
+  const [showTopBtn, setShowTopBtn] = useState(false);
+
   useEffect(() => {
-    // 👇️ scroll to top on page load
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) {
+        setShowTopBtn(true);
+      } else {
+        setShowTopBtn(false);
+      }
+    });
   }, []);
+  const goToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="App">
-      <button
-        className="scrollToTop"
-        onClick={() => {
-          window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-        }}
-      >
-        <IoIosArrowUp  />
-      </button>
+      {showTopBtn && (
+          <IoIosArrowUp className="scrollToTop" onClick={goToTop} />
+      )}
       <Header />
       <About />
       <Tech />
       <Portfolio />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
