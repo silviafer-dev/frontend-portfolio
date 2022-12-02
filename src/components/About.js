@@ -9,7 +9,7 @@ export function About() {
   const [personalInfo, setPersonalInfo] = useState({});
   useEffect(() => {
     axios
-      .get("https://back-sf-portfolio.herokuapp.com/about")
+      .get("https://back-portfolio-sf.herokuapp.com/about")
       .then((res) => setPersonalInfo(res.data));
   }, [setPersonalInfo]);
 
@@ -20,7 +20,7 @@ export function About() {
         <div className="name-prof-block">
           <h1>Hello world!</h1>
           <h1 className="my-name">I'm {personalInfo.name}</h1>
-          <h3>{personalInfo.profession}</h3>
+          <h2>{personalInfo.profession}</h2>
         </div>
         <div className="icons-links">
           <a

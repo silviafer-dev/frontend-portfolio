@@ -14,6 +14,7 @@ import {
   SiJest,
   SiCypress,
   SiTrello,
+  SiFigma,
 } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 
@@ -83,6 +84,10 @@ export function Tech() {
         <div className="tech bounce">
           <SiTrello />
           <h4>Trello</h4>
+        </div>
+        <div className="tech bounce">
+          <SiFigma />
+          <h4>Figma</h4>
         </div>
       </div>
     </div>

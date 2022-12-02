@@ -173,6 +173,5 @@
   border: none;
   padding: 10px 20px;
   color: aliceblue;
-  background-color: goldenrod; 
   animation: backgroundColorPulse 5s infinite ease-in-out;;
 }

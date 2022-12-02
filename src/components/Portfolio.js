@@ -6,7 +6,7 @@ export function Portfolio() {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
     axios
-      .get("https://back-sf-portfolio.herokuapp.com/portfolio")
+      .get("https://back-portfolio-sf.herokuapp.com/portfolio")
       .then((res) => setProjects(res.data));
   }, [setProjects]);
 
