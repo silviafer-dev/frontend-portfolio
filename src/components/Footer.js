@@ -22,7 +22,7 @@ export  function Footer() {
         </a>
       </div>
       <p>Made with 🖤 by Silvia Ferrai</p>
-      <address>Email: silviaferdeveloper@gmail.com </address>
+      {/* <address>Email: silviaferdeveloper@gmail.com </address> */}
     </div>
   );
 }

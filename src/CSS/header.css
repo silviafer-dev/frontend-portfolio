@@ -27,7 +27,9 @@
   max-width: fit-content;
   z-index: 9;
 }
-
+.navBar svg {
+  filter: drop-shadow(3px 5px 2px rgb(0, 0, 0));
+}
 .menuNav.showMenu {
   width: 100%;
 }
@@ -46,6 +48,8 @@ li a {
 li a:hover {
   background-color: rgba(76, 36, 7, 0.457);
   border-radius: 20px;
+  font-size: larger;
+  padding: 7px 25px;
 }
 
 .menuNav li:first-child {

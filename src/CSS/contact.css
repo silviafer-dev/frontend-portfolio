@@ -66,3 +66,17 @@ div[role="alert"] {
   opacity: 1;
   color: red;
 }
+@media (max-width: 676px) {
+  input {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+  .about-me {
+    padding: 0 10px;
+  }
+  .message-chars-left {
+    padding: 0;
+  }
+}
