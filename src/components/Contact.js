@@ -87,7 +87,7 @@ export function Contact() {
         <p className="message-chars-left">{message.length}/1500</p>
         <br />
         <div className="send-button">
-          <input type="submit" value="Envía" />
+          <input type="submit" value="Enviar" />
         </div>
       </form>
     </div>
