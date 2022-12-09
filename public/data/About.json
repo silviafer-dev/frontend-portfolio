@@ -1,0 +1,22 @@
+{
+  "name": "Silvia Ferrai",
+  "profession": "Full Stack Developer",
+  "photo": "https://i.ibb.co/vjTKy3h/photo.jpg",
+  "about_me": "Me considero una persona responsable, con altas dotes de organización, tanto del personal como del tiempo. Me gusta el formar a la gente y seguir aprendiendo en equipo. Mi tiempo libre lo empleo en disfrutar bajo el sol, tanto con la bici como con un buen libro.",
+  "skills": [
+    "Javascript",
+    "Typescript",
+    "NodeJs",
+    "ReactJS",
+    "Redux",
+    "HTML",
+    "CSS",
+    "SASS",
+    "BEM",
+    "MySQL",
+    "MongoDB",
+    "Mongoose",
+    "Jest",
+    "Cypress"
+  ]
+}

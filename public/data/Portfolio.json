@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Imago - Photo App",
+    "description": "App de photos creada con React/Redux-toolkit, api de Unsplash, javascript, MUI, Local Storage para guardar los cambios. Función de busqueda en la página principal, posibilidad de añadir y quitar de favoritos. Página de favoritos con busqueda por descripción, se puede actualizar la descripción, descargar la foto y quitar de favoritos.",
+    "image": "https://i.ibb.co/KmyyHNg/imago-frame.png",
+    "link": "https://silviafer-dev.github.io/imago/",
+    "github": "https://github.com/silviafer-dev/imago"
+  },
+  {
+    "name": "Hotel Miranda - Web page",
+    "description": "Utilicé HTML y SASS, api de Google Maps y javascript para algunas funcionalidades.",
+    "image": "https://i.ibb.co/XyfpJFW/hotel-frame-2.png",
+    "link": "https://silviafer-dev.github.io/Hotel-Miranda-web-page/",
+    "github": "https://github.com/silviafer-dev/Hotel-Miranda-web-page"
+  },
+  {
+    "name": "Dashboard Hotel",
+    "description": "App creada con javascript, react/redux, context, react-routing, styled component.",
+    "image": "https://i.ibb.co/VgPNnpp/dashboard.png",
+    "link": "https://silviafer-dev.github.io/dashboard/",
+    "github": "https://github.com/silviafer-dev/dashboard"
+  },
+  {
+    "name": "Oxygen Shop",
+    "description": "Home page creada con HTML y SASS y Javascript.",
+    "image": "https://i.ibb.co/wRvtBt6/oxygen-frame.png",
+    "link": "https://silviafer-dev.github.io/Oxygen-Shop-No-JS/",
+    "github": "https://github.com/silviafer-dev/Oxygen-Shop-No-JS"
+  }
+]

@@ -4,10 +4,9 @@ import "../CSS/portfolio.css";
 
 export function Portfolio() {
   const [projects, setProjects] = useState([]);
+
   useEffect(() => {
-    axios
-      .get("https://back-portfolio-sf.herokuapp.com/portfolio")
-      .then((res) => setProjects(res.data));
+    axios.get("./data/Portfolio.json").then((res) => setProjects(res.data));
   }, [setProjects]);
 
   return (

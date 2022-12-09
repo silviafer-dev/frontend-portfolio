@@ -8,9 +8,7 @@ import "../CSS/about.css";
 export function About() {
   const [personalInfo, setPersonalInfo] = useState({});
   useEffect(() => {
-    axios
-      .get("https://back-portfolio-sf.herokuapp.com/about")
-      .then((res) => setPersonalInfo(res.data));
+    axios.get("./data/About.json").then((res) => setPersonalInfo(res.data));
   }, [setPersonalInfo]);
 
   return (
