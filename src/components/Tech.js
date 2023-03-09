@@ -17,6 +17,7 @@ import {
   SiFigma,
 } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { TbBrandReactNative } from "react-icons/tb";
 
 export function Tech() {
   return (
@@ -53,12 +54,16 @@ export function Tech() {
           <h4>Redux</h4>
         </div>
         <div className="tech bounce">
+          <TbBrandReactNative />
+          <h4>React Native</h4>
+        </div>
+        <div className="tech bounce">
           <IoLogoNodejs />
           <h4>NodeJS</h4>
         </div>
         <div className="tech bounce">
           <SiExpress />
-          <h4> Express</h4>
+          <h4>Express</h4>
         </div>
         <div className="tech bounce">
           <SiMysql />
