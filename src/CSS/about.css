@@ -173,10 +173,12 @@
   padding: 10px 20px;
   color: aliceblue;
   animation: backgroundColorPulse 5s infinite ease-in-out;
+  box-shadow: rgb(142 83 6) 4px 4px 0px;
+  transition: transform 200ms, box-shadow 200ms;
 }
 .cv-download:active {
-  transform: scale(0.9);
-  box-shadow: 0 3px 15px -2px;
+  transform: translateY(4px) translateX(4px);
+  box-shadow: rgb(142 83 6) 0px 0px 0;
 }
 .about svg {
   filter: drop-shadow(3px 5px 2px rgb(0, 0, 0));
